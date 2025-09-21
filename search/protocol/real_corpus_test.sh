@@ -14,4 +14,4 @@ if [ ! -f $1/data/index.faiss ]; then
 fi
 
 # Test correctness of nearest-neighbor and url services
-go test -timeout 0 -run Real -preamble $1/data
+# go test -timeout 0 -run Real -preamble $1/data

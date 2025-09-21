@@ -16,7 +16,7 @@ if len(sys.argv) != 3 and len(sys.argv) != 4:
 
 server_type = sys.argv[1]
 idx = int(sys.argv[2])
-path = "/home/ubuntu"
+path = "/home/ubuntu/"
 
 if len(sys.argv) >= 4:
     path = sys.argv[3]
